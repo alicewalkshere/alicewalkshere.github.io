@@ -1,0 +1,76 @@
+// Variables
+$primary-color: #3498db
+$secondary-color: #2ecc71
+$card-bg: #f2f2f2
+
+// Reset and basic styles
+body, h1, h2, p, ul, li
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Arial', sans-serif
+
+// Menu Bar styles
+.menu-bar
+  background-color: $primary-color
+  padding: 10px 0
+
+  ul
+    list-style: none
+    display: flex
+    justify-content: center
+
+    li
+      margin: 0 15px
+
+      a
+        text-decoration: none
+        color: white
+        font-weight: bold
+
+// Hero Section styles
+.hero
+  background-image: url('hero-image.jpg')
+  background-size: cover
+  color: white
+  text-align: center
+  padding: 100px 0
+
+  .hero-content
+    max-width: 800px
+    margin: 0 auto
+
+    h1
+      font-size: 3em
+      margin-bottom: 20px
+
+    p
+      font-size: 1.2em
+
+// Card Section styles
+.card-section
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+  padding: 50px 0
+
+  .card
+    max-width: 300px
+    background-color: $card-bg
+    margin-bottom: 20px
+
+    img
+      max-width: 100%
+      height: auto
+
+    .card-content
+      padding: 20px
+
+      h2
+        font-size: 1.5em
+        margin-bottom: 10px
+
+      p
+        font-size: 1em
+
